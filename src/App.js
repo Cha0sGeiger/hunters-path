@@ -8,7 +8,7 @@ function App() {
       <img className="game-logo" src={GameLogo} alt="hunters'path"/>
       <div className="button-wrap center">
         <Button label="White side" color='primary'/>
-        <Button label="Dark side"/>
+        <Button label="Dark side" color="secondary"/>
       </div>
     </div>
   );

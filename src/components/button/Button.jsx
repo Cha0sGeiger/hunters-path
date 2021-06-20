@@ -1,6 +1,6 @@
-export const Button = ({onClick, color='primary', label}) => {
+export const Button = ({onChange, color='primary', label}) => {
     return(
-        <button onClick={onClick} className={`button ${color}`}>
+        <button onClick={onChange} className={`button ${color}`}>
             {label}
         </button>
     )

@@ -1,6 +1,14 @@
 .button {
     max-width: 100%;
     padding: 6px;
-    color: $white;
     font-size: 24px;
+    border-radius: 20px;
+}
+
+.primary {
+    background-color: $primary;
+}
+
+.secondary {
+    background-color: $secondary;
 }
